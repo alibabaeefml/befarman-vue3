@@ -4,7 +4,7 @@ import { useDisplay } from "vuetify/lib/framework.mjs";
 import bg from "@/assets/Images/Header.jpg";
 import { useRoute } from "vue-router";
 import { useAuthStore } from "@/store/auth";
-import LocalStorage from "@/utils/store-management/localstorage";
+import LocalStorage from "@/utils/store-management/localStorage";
 const mobile = computed(() => useDisplay().width.value < 1080);
 const drawer = ref(false);
 const loggedIn = ref(true);
